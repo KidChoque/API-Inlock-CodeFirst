@@ -12,5 +12,7 @@ namespace webAPICodeFIrst.Domains
         [Column(TypeName ="VARCHAR(100)")]
         [Required(ErrorMessage = "Tipo de usuário obrigatorio")]
         public string? Titulo { get; set; }
+
+
     }
 }
